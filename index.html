@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1> Crie e compartilhe seu evento</h1>
+        <p> O primeiro passo é preencher esse formulário de inscrição</p>
+    </header>
+   
+ <form action="" method="">
+
+    <h3>Informações do evento</h3>
+
+    <div class="input">
+        <label for="titulo"> Título do evento <span>(mínimo 8 caracteres)</span></label>
+        <input type="text" placeholder=" Título do evento aqui">
+     </div>
+     <div class="input">
+        <label for="link"> Link do evento <span>(url do site)</span></label>
+        <input type="url" placeholder=" Link do evento aqui">
+     </div>
+     <div class="input">
+        <label for="whatsapp"> Whatsapp para contato <span>(apenas números)</span></label>
+        <input type="number" placeholder="  (00) 00000-0000">
+     </div>
+     <div class="input">
+        <label for="link"> Informações extras</label>
+        <textarea name="" id="info" cols="10" rows="10"></textarea>
+     </div>
+     <div class="input">
+        <label for="categoria"> Categoria</label>
+        <select  id="evento">
+            <option value="live"> Ao vivo</option>
+            <option value="podcast"> Podcast</option>
+            <option value="mentoria"> Mentoria</option>
+            <option value="outros"> Outros</option>
+        </select>
+
+        <h3> Privacidade</h3>
+        <div class="input">
+            <label for="email">E-mail do Administrador <span>(digite um email válido)</span></label>
+            <input type="email" placeholder=" Digite aqui o email aqui">
+         </div>
+         <div class="input">
+            <label for="link"> Senha <span>( até 8 caracteres)</span></label>
+            <input type="password" placeholder=" Digite a senha aqui">
+         </div>
+
+         <h3> Dia e hora do evento</h3>
+        <div class="input">
+            <label for="data">Data do evento</label>
+            <input type="date">
+         </div>
+         <div class="input">
+            <label for="hora"> Hora do evento</label>
+            <input type="time" placeholder=" Digite aqui">
+         </div>
+         
+        <div class="form-buttons">
+            <input type="submit" value=" Enviar Informações">
+
+        </div>
+     </div>
+
+
+ </form>
+
+ 
+</body>
+</html>

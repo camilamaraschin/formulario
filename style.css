@@ -1,0 +1,104 @@
+body{
+    background:gray;
+
+}
+
+/* cria um elemnto antes */
+body::before{
+    content:'';
+    width:100%;
+    height:368px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: black;
+
+
+}
+ /* centraliza a parte do cabeçalho */
+header{
+  
+    width: 736px;
+    margin: auto;
+    margin-top: 74px;
+    
+}
+
+header h1 {
+    color:white;
+    font-size:36px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+header p{
+    font-size:16px;
+    line-height:26px;
+    color: #42d3ff
+
+
+}
+
+form{
+ background:white;
+ min-height:300px;
+ margin-top: 38px;
+ border-radius: 8px;
+ padding: 64px;
+
+}
+h3{
+    font-size: 24px;
+    line-height34px;
+    border-bottom: 1px solid gray;
+    padding: 16px;
+    display:flex;
+    flex-direction: column;
+    gap:48px;
+
+}
+ /*  vai fazer com que elementos inline mude para uma quebra de linha*/
+.input{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.input label{
+    font-size: 14px;
+    line-height:24px;
+    margin-bottom:8px;
+   
+}
+
+.input label span {
+    margin-left: 12px;
+    font-size:12px;
+    color: gray;
+
+}
+
+.input input,  textarea, select{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.input select{
+    
+}
+
+.form-buttons{
+    padding: 64px;
+    height: 136px;
+   
+    border-radius: 10px;
+    padding: 40px 64px;
+
+}
+.form-buttons input{
+    background: lime;
+    color: white;
+    border: black solid 1px;
+}
