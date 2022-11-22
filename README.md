@@ -1,4 +1,4 @@
-# formulario
+# Formulário
 Durante o curso Explorer da Rocketseat, foi desenvolvido um Formulario usando inputs de diversas formas, e algumas funcionalidades no css.
 
 
